@@ -1,0 +1,22 @@
+Initialize Git: git init
+
+Set Everything to Commit: git add .
+
+Set Single File to Commit: git add index.php
+
+Commit Changes: git commit -m "COMMITMESSAGE"
+
+Add and Commit: git commit -am "COMMITMESSAGE"
+
+Remove File from Git: git rm index.php
+
+Update All Changes: git add -u
+
+Remove File and Do Not Track Anymore: git rm --cached index.php
+
+Move or Rename Files: git mv index.php dir/index-two.php
+
+Undo Modifications to Last Commit: git checkout -- index.php
+
+Restore File From Specific Commit: git checkout COMMITNAME -- index.php
+
