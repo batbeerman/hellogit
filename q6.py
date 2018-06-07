@@ -1,0 +1,33 @@
+print('Implementing Stack')
+test_stack = ['Mercury','Venus','Earth','Mars','Jupiter']
+print('Original Stack ',test_stack)
+test_stack.append('Saturn')
+print('Push 1 ',test_stack)
+test_stack.append('Uranus')
+print('Push 2 ',test_stack)
+test_stack.append('Neptune')
+print('Push 3 ',test_stack)
+test_stack.pop()
+print('Pop 3 ',test_stack)
+test_stack.pop()
+print('Pop 2 ',test_stack)
+test_stack.pop()
+print('Pop 1 ',test_stack)
+
+
+
+print('\n\nImplementing Queue')
+test_queue = ['Mars','Jupiter','Saturn','Uranus','Neptune']
+print('Original Queue ',test_queue)
+test_queue.insert(0,'Earth')
+print('Top push 1 ',test_queue)
+test_queue.insert(0,'Venus')
+print('Top push 2 ',test_queue)
+test_queue.insert(0,'Mercury')
+print('Top push 3 ',test_queue)
+test_queue.pop(0)
+print('Top pop 3 ',test_queue)
+test_queue.pop(0)
+print('Top pop 2 ',test_queue)
+test_queue.pop(0)
+print('Top pop 1 ',test_queue)
