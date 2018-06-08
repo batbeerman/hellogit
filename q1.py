@@ -1,2 +1,3 @@
-new_list = ['Saurav','Galileo','Mark_42',[True, False],56,98]
-print(new_list)
+a = input()
+s = list(a.split())
+print('User Input list :',s)
