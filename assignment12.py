@@ -28,16 +28,15 @@ Addresses:  2404:6800:4003:c03::68
 Name:    star-z-mini.c10r.facebook.com
 Addresses:  2a03:2880:f12f:87:face:b00c:0:50fb
           157.240.16.39
-Aliases:  www.fb.com
-          www.facebook.com
+Aliases:  www.fb.co
 '''
 
 #Q3
 import tweepy
-consumer_key= "pkxPCtpAzbVYbyQzY7kuASYWH"
-consumer_secret= "sgNVQXNPkhWYoTLFKmz2sHmmLw8XPKiE1kBfhcRrjxesDfOLv"
-access_token= "1008945469085618176-EcmSqixOPGZsE55LzWRpD174NWsNHK"
-access_token_secret= "sdxxYxzc8838dOEwxIMesIB7EI0uwY71AE1j99M0I1pIx"
+consumer_key= "dIK9JxXXrhJBc7zhGLsM5xevW"
+consumer_secret= "WqMctxuLR1XcEKu2clKsUjUA8lyNPEwHbQQNVdlcF0gVn080TK"
+access_token= "	1008945469085618176-EcmSqixOPGZsE55LzWRpD174NWsNHK"
+access_token_secret= "	j6G9xePAnixWqXZSDllIkrginmqgrAH2ALVjHOQ1F5aJy"
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 api=tweepy.API(auth)
@@ -58,9 +57,9 @@ And math is a library in Java.
 
 #Q5
 import spotipy
-katyperry_uri = 'spotify:artist:6jJ0s89eD6GaHleKKya26X'
+the_local_train_uri = 'spotify:artist:7b6Ui7JVaBDEfZB9k6nHL0'
 spotify = spotipy.Spotify()
-results = spotify.artist_albums(katyperry_uri, album_type='album')
+results = spotify.artist_albums(the_local_train_uri, album_type='album')
 albums = results['items']
 while results['next']:
     results = spotify.next(results)
